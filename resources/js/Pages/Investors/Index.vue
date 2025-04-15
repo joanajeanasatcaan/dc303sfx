@@ -13,7 +13,7 @@ defineProps({
 
     <PageLayout>
         <div
-            class="bg-green-100 border border-green-300 p-8 rounded-lg w-[600px] mx-auto mt-12"
+            class="bg-green-100 border border-green-300 p-8 rounded-lg w-[90%] mx-auto mt-12"
         >
             <div class="flex items-center justify-between mb-4">
                 <h1 class="text-2xl font-bold">Investors</h1>
@@ -25,7 +25,7 @@ defineProps({
                 </Link>
             </div>
 
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
                 <div
                     v-for="investor in investors.data"
                     :key="investor.id"
